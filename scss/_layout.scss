@@ -1,0 +1,251 @@
+
+
+/*************************************/
+/*=========     GLOBAL     =========*/
+/***********************************/
+
+/* Back to top Button */
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    background-color: $main-color !important;
+    border-color: $main-color !important;
+}
+
+/*************************************/
+/*=========     HEADER     =========*/
+/***********************************/
+
+.navbar {
+  background-color:transparent !important;
+  border:none !important;
+  width:900px;
+}
+
+#logo {
+  float:left;
+}
+
+.navbar li {
+  font-size:20px;
+  color:$main-color;
+}
+
+/*************************************/
+/*=========     BANNER     =========*/
+/***********************************/
+
+.imagen-banner {
+  background-image:url("../images/foto-demo-banner.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  width:100%;
+  height:650px;
+  position:relative;
+}
+
+
+/*************************************/
+/*========= CAROUSEL VERTICAL ======*/
+/***********************************/
+
+.titulo {
+  display:inline-block;
+  position:absolute;
+  width:700px;
+  left:350px;
+  bottom:300px;
+  color:#66F271;
+  font-family:$third-font;
+  text-align:center;
+}
+.titulo h2 {
+  font-size: 60px;
+}
+.quotes {
+  display: none;
+  font-size:30px;
+
+}
+
+
+.vertical .carousel-inner {
+  height: 100%;
+
+}
+
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+.carousel.vertical .active {
+  top: 0;
+}
+
+.carousel.vertical .next {
+  top: 100%;
+}
+
+.carousel.vertical .prev {
+  top: -100%;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+.carousel.vertical .active.left {
+  top: -100%;
+}
+
+.carousel.vertical .active.right {
+  top: 100%;
+}
+
+.carousel.vertical .item {
+    left: 0;
+}
+
+.cleaner {
+  cleaner:both;
+}
+
+/*************************************/
+/*=========    SERVICIOS    =========*/
+/***********************************/
+
+.servicios {
+  margin-top:50px;
+}
+.servicios h3 {
+  font-size:50px;
+  text-align:center;
+  font-family:$main-font;
+}
+
+.servicios p {
+  text-align:center;
+  font-size:25px;
+  margin-bottom:50px;
+}
+
+.servicios li{
+  list-style:none;
+}
+
+.servicios li h4{
+  font-family:20px;
+  text-align:center;
+}
+
+.servicios li p {
+  font-size:12px;
+}
+
+.grupo-arriba {
+  border-bottom:1px solid lightgrey;
+}
+
+.border-derecha {
+  border-right:1px solid lightgrey;
+}
+
+/***************************************/
+/*=========     QUE INCLUYE     =========*/
+/*************************************/
+
+
+.queincluye {
+  margin-bottom:70px;
+  background-image:url("../images/foto-demo-quehacemos.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:500px;
+}
+.queincluye h2 {
+  text-align:center;
+  margin-top:60px;
+  color:white;
+}
+.queincluye ul{
+  margin-top: 50px;
+
+}
+
+.queincluye li {
+  list-style:none;
+}
+
+.queincluye li h4 {
+  font-size:20px;
+  text-align:center;
+  color:white;
+}
+
+.queincluye li p {
+  font-size:10px;
+  text-align:center;
+  margin-bottom:20px;
+  margin-top:20px;
+  color:white;
+}
+/***************************************/
+/*=========     CONTACTO     =========*/
+/*************************************/
+
+
+/****************************************/
+/*=========     MAPA    =========*/
+/**************************************/
+
+
+
+/**************************************/
+/*=========     REDES     =========*/
+/************************************/
+
+
+#social {
+	padding-top:100px;
+	margin-bottom:100px;
+}
+
+#social a {
+	margin-top: 50px;
+	font-size: 100px !important;
+	display: block;
+	transition: all 500ms 100ms ease-in-out;
+	height: 200px;
+	width: 200px;
+	line-height: 200px;
+	border-radius: 50%;
+	margin: auto;
+}
+#social .fa-facebook {
+	color: $facebook-color !important;
+}
+#social .fa-twitter {
+	color: $twitter-color !important;
+}
+#social .fa-pinterest {
+	color: $pinterest-color !important;
+}
+#social a:hover {
+
+	background-color: lightgreen;
+	font-size: 120px !important;
+
+}
+
+
+/************************************/
+/*=========     FOOTER     =========*/
+/************************************/
