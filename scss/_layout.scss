@@ -122,31 +122,39 @@
 /*=========    SERVICIOS    =========*/
 /***********************************/
 
-.servicios {
-  margin-top:50px;
+.planes {
+  margin-top:80px;
+  margin-bottom:80px;
 }
-.servicios h3 {
+.planes h3 {
   font-size:50px;
   text-align:center;
   font-family:$main-font;
+
 }
 
-.servicios p {
+.planes p {
   text-align:center;
   font-size:25px;
-  margin-bottom:50px;
+  margin-bottom:60px;
 }
 
-.servicios li{
+.planes li{
   list-style:none;
+  height:250px;
+
+  &:hover{
+    background-image:url("../images/foto-demo-planes.jpg");
+    background-size:cover;
+  }
 }
 
-.servicios li h4{
+.planes li h4{
   font-family:20px;
   text-align:center;
 }
 
-.servicios li p {
+.planes li p {
   font-size:12px;
 }
 
@@ -168,11 +176,12 @@
   background-image:url("../images/foto-demo-quehacemos.jpg");
   background-repeat:no-repeat;
   background-size:cover;
-  height:500px;
+  height:650px;
 }
 .queincluye h2 {
   text-align:center;
-  margin-top:60px;
+  padding-top:80px;
+  margin-bottom:100px;
   color:white;
 }
 .queincluye ul{
@@ -201,7 +210,34 @@
 /*=========     CONTACTO     =========*/
 /*************************************/
 
+#contacto {
+  margin-top:30px;
+}
 
+#contacto article {
+  margin-bottom:20px;
+}
+
+#contacto h6 {
+  text-align:left;
+  text-transform:uppercase;
+  font-size:15px;
+  font-family:$main-font;
+  margin-top:0;
+}
+
+#contacto article textarea {
+  height:100px;
+}
+
+.contacto-info {
+  padding:20px;
+  margin-top:20px;
+}
+
+iframe {
+  margin-top:30px;
+}
 /****************************************/
 /*=========     MAPA    =========*/
 /**************************************/
