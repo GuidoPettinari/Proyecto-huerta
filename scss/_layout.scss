@@ -24,9 +24,10 @@
 /***********************************/
 
 .navbar {
-  background-color:transparent !important;
+  background-color:$comp-color !important;
   border:none !important;
-  max-width:900px;
+  max-width:100%;
+  opacity: 0.95;
 }
 
 #logo {
@@ -35,7 +36,7 @@
 
 .navbar li {
   font-size:20px;
-  color:$main-color;
+  color:$font-color;
 }
 
 /*************************************/
@@ -65,154 +66,36 @@
   top: 150px;
   margin-left:auto;
   margin-right:auto;
-  color:#66F271;
+  color:$comp-color;
   font-family:$third-font;
   text-align:center;
-}
-.titulo h2 {
-  font-size: 60px;
-}
-.quotes {
-  display: none;
-  font-size:30px;
-
-}
-
-
-.vertical .carousel-inner {
-  height: 100%;
-
-}
-
-.carousel.vertical .item {
-  -webkit-transition: 0.6s ease-in-out top;
-     -moz-transition: 0.6s ease-in-out top;
-      -ms-transition: 0.6s ease-in-out top;
-       -o-transition: 0.6s ease-in-out top;
-          transition: 0.6s ease-in-out top;
-}
-
-.carousel.vertical .active {
-  top: 0;
-}
-
-.carousel.vertical .next {
-  top: 100%;
-}
-
-.carousel.vertical .prev {
-  top: -100%;
-}
-
-.carousel.vertical .next.left,
-.carousel.vertical .prev.right {
-  top: 0;
-}
-
-.carousel.vertical .active.left {
-  top: -100%;
-}
-
-.carousel.vertical .active.right {
-  top: 100%;
-}
-
-.carousel.vertical .item {
-    left: 0;
-}
-
-.cleaner {
-  cleaner:both;
 }
 
 /*************************************/
 /*=========    SERVICIOS    =========*/
 /***********************************/
 
-.planes {
+#planes {
   margin-top:80px;
   margin-bottom:80px;
 }
-.planes h3 {
-  font-size:50px;
-  text-align:center;
-  font-family:$main-font;
 
+#planes ul {
+     list-style: none;
 }
-
-.planes p {
-  text-align:center;
-  font-size:25px;
-  margin-bottom:60px;
+.box {
+     height: 400px;
 }
-
-.planes li{
-  list-style:none;
-  height:250px;
-
-  &:hover{
-    background-image:url("../images/foto-demo-planes.jpg");
-    background-size:cover;
-  }
+.box h4 {
+     height: 60px;
+     line-height: 60px;
+     background-color: red;
 }
-
-.planes li h4{
-  font-family:20px;
-  text-align:center;
-}
-
-.planes li p {
-  font-size:12px;
-}
-
-.grupo-arriba {
-  border-bottom:1px solid lightgrey;
-}
-
-.border-derecha {
-  border-right:1px solid lightgrey;
-}
-
 /***************************************/
 /*=========     QUE INCLUYE     =========*/
 /*************************************/
 
 
-.queincluye {
-  margin-bottom:70px;
-  background-image:url("../images/foto-demo-quehacemos.jpg");
-  background-repeat:no-repeat;
-  background-size:cover;
-  height:650px;
-}
-.queincluye h2 {
-  text-align:center;
-  padding-top:80px;
-  margin-bottom:100px;
-  color:white;
-}
-.queincluye ul{
-  margin-top: 50px;
-
-}
-
-.queincluye li {
-  list-style:none;
-}
-
-.queincluye li h4 {
-  font-size:20px;
-  text-align:center;
-  color:white;
-}
-
-.queincluye li p {
-  font-size:10px;
-  text-align:center;
-  margin-bottom:20px;
-  margin-top:20px;
-  color:white;
-}
 /***************************************/
 /*=========     CONTACTO     =========*/
 /*************************************/
@@ -257,8 +140,8 @@ iframe {
 
 
 #social {
-	padding-top:100px;
-	margin-bottom:100px;
+     background-color: $font-color;
+     color: $comp-color;
 }
 
 #social a {
@@ -266,8 +149,6 @@ iframe {
 	font-size: 100px !important;
 	display: block;
 	transition: all 500ms 100ms ease-in-out;
-	height: 200px;
-	width: 200px;
 	line-height: 200px;
 	border-radius: 50%;
 	margin: auto;
@@ -281,14 +162,3 @@ iframe {
 #social .fa-pinterest {
 	color: $pinterest-color !important;
 }
-#social a:hover {
-
-	background-color: lightgreen;
-	font-size: 120px !important;
-
-}
-
-
-/************************************/
-/*=========     FOOTER     =========*/
-/************************************/
