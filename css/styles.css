@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
 body {
-  font-family: "Roboto Slab";
+  font-family: "Montserrat";
   margin: 0; }
 
 figure {
@@ -74,7 +74,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   color: #ffffff;
-  font-family: "Montserrat";
+  font-family: "Roboto Slab";
   text-align: center; }
 
 /*************************************/
@@ -104,44 +104,78 @@ a {
 #contacto {
   margin-top: 30px; }
 
-#contacto article {
-  margin-bottom: 20px; }
+#contacto .form-title {
+  margin-bottom: 30px; }
 
-#contacto h6 {
-  text-align: left;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-family: "Roboto Slab";
-  margin-top: 0; }
+#contacto article {
+  margin-bottom: 15px; }
+
+#contacto article:last-child {
+  margin-bottom: 0px;
+  height: 60px; }
 
 #contacto article textarea {
-  height: 100px; }
+  height: 80px; }
 
-.contacto-info {
-  padding: 20px;
-  margin-top: 20px; }
+#contacto input {
+  height: 40px !important;
+  line-height: 40px;
+  padding: 0 10px; }
 
-iframe {
-  margin-top: 30px; }
+.flexible-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+.flexible-container iframe,
+.flexible-container object,
+.flexible-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 /****************************************/
 /*=========     MAPA    =========*/
 /**************************************/
+/****************************************/
+/*=========     GALERIA    =========*/
+/**************************************/
+.img-container {
+  max-width: 20%;
+  float: left; }
+
+#galeria img {
+  margin: 0 !important;
+  padding: 0 !important; }
+
 /**************************************/
 /*=========     REDES     =========*/
 /************************************/
 #social {
   background-color: #555555;
-  color: #ffffff; }
+  color: #ffffff;
+  height: 100px; }
+
+#social .logo-footer {
+  padding-top: 29px; }
+
+#social h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 100px;
+  margin: 0; }
 
 #social a {
-  margin-top: 50px;
-  font-size: 100px !important;
+  font-size: 30px !important;
   display: block;
   transition: all 500ms 100ms ease-in-out;
-  line-height: 200px;
   border-radius: 50%;
-  margin: auto; }
+  margin: auto;
+  line-height: 100px; }
 
 #social .fa-facebook {
   color: #3b5998 !important; }
@@ -149,8 +183,11 @@ iframe {
 #social .fa-twitter {
   color: #55acee !important; }
 
-#social .fa-pinterest {
-  color: #bd081c !important; }
+#social .fa-instagram {
+  color: #e1306c !important; }
+
+#social .fa-google-plus-official {
+  color: #dd4b39 !important; }
 
 /******************************************/
 /*=========     MEDIA-QUERIES    =========*/

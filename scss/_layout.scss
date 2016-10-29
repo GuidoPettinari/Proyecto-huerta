@@ -104,35 +104,68 @@
   margin-top:30px;
 }
 
-#contacto article {
-  margin-bottom:20px;
+#contacto .form-title {
+  margin-bottom: 30px;
 }
 
-#contacto h6 {
-  text-align:left;
-  text-transform:uppercase;
-  font-size:15px;
-  font-family:$main-font;
-  margin-top:0;
+#contacto article {
+  margin-bottom:15px;
 }
+
+#contacto article:last-child {
+  margin-bottom:0px;
+  height: 60px;
+}
+
 
 #contacto article textarea {
-  height:100px;
+  height:80px;
 }
 
-.contacto-info {
-  padding:20px;
-  margin-top:20px;
+#contacto input {
+     height: 40px !important;
+     line-height: 40px;
+     padding: 0 10px;
 }
 
-iframe {
-  margin-top:30px;
+.flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+
 }
+
+.flexible-container iframe,
+.flexible-container object,
+.flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /****************************************/
 /*=========     MAPA    =========*/
 /**************************************/
 
 
+/****************************************/
+/*=========     GALERIA    =========*/
+/**************************************/
+
+
+.img-container {
+     max-width: 20%;
+     float: left;
+}
+
+#galeria img {
+     margin: 0 !important;
+     padding: 0 !important;
+}
 
 /**************************************/
 /*=========     REDES     =========*/
@@ -142,16 +175,26 @@ iframe {
 #social {
      background-color: $font-color;
      color: $comp-color;
+     height: 100px;
+}
+#social .logo-footer {
+     padding-top: 29px;
+}
+#social h2 {
+     text-transform: uppercase;
+     font-size: 20px;
+     line-height: 100px;
+     margin: 0;
+
 }
 
 #social a {
-	margin-top: 50px;
-	font-size: 100px !important;
+	font-size: 30px !important;
 	display: block;
 	transition: all 500ms 100ms ease-in-out;
-	line-height: 200px;
 	border-radius: 50%;
 	margin: auto;
+     line-height: 100px;
 }
 #social .fa-facebook {
 	color: $facebook-color !important;
@@ -159,6 +202,9 @@ iframe {
 #social .fa-twitter {
 	color: $twitter-color !important;
 }
-#social .fa-pinterest {
-	color: $pinterest-color !important;
+#social .fa-instagram {
+	color: $instagram-color !important;
+}
+#social .fa-google-plus-official {
+	color: $google-color !important;
 }
