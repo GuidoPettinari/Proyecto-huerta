@@ -8,8 +8,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<!-- ion-icons -->
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-		<script src="https://use.fontawesome.com/1035ca1ca2.js"></script>
-		<!-- our-own-styles -->
+		<script src="https://use.fontawesome.com/1f290a2e06.js"></script>		<!-- our-own-styles -->
 		<link rel="stylesheet" href="css/styles.css">
 		<!-- Soporte para IE 9 e inf. -->
 		<!--[if lt IE 9]>
@@ -22,7 +21,7 @@
 	<header>
 
 		<div class="navbar navbar-default navbar-fixed-top">
-			<figure id="logo"><img src="http://placehold.it/100x60"></figure>
+			<figure id="logo"><img src="images/logo.png"></figure>
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-links">
@@ -65,17 +64,19 @@
 	</div>
 
 
-
-<!-- PLANES -->
+	<!-- QUE ES LA HUERTA -->
 	<section id="info"	class="container">
 		<div class="row">
-			<h2 class="text-center">¿Qué es la huerta?</h2>
+			<h2 class="text-center subtitulo">¿Qué es la huerta?</h2>
 			<p class="text-center">La Huerta Coworking House es un espacio de trabajo compartido ubicado en el corazón de Palermo, donde diferentes emprendedores conviven y se nutren entre sí, compartiendo experiencias y conocimientos. Nuestro espacio es ideal para:</p>
 		</div>
 	</section>
+
+
+	<!-- PLANES -->
 	<section id="planes" class="container">
 		<div class="row text-center">
-			<h2 class="col-xs-12 col-md-12">Nuestros planes para trabajar en la huerta</h2>
+			<h2 class="col-xs-12 col-md-12 subtitulo">Nuestros planes para trabajar en la huerta</h2>
 
 			<ul>
 
@@ -128,49 +129,73 @@
 
 <!-- SERVICIOS -->
 	<section id="servicios">
-			<h2>Servicios incluídos</h2>
-			<ul>
-				<li class=" col-xs-6 col-md-3">
-					<h4>Infusiones</h4>
-					<p>Agua Fria/Caliente, Café, Yerba y Té.</p>
-				</li>
-				<li class=" col-xs-6 col-md-3">
-					<h4>Lockers</h4>
-					<p>Lockers con candado propio.</p>
-				</li>
-				<li class=" col-xs-6 col-md-3">
-					<h4>Impresora Laser</h4>
-					<p>100 páginas por mes.</p>
-				</li>
-				<li class=" col-xs-6 col-md-3">
-					<h4>Sala de reuniones</h4>
-					<p>Capacidad para 10 personas.<br>TV Led y Pizarra.</p>
-				</li>
-				<li class=" col-xs-6 col-md-3">
-					<h4>Internet</h4>
-					<p>Wifi de alta velocidad.</p>
-				</li>
-				<li class=" col-xs-6 col-md-3">
-					<h4>Dirección comercial</h4>
-					<p>Recepción de mensajería y correo.</p>
-				</li>
-				<li class=" col-xs-6 col-md-3">
-					<h4>Ingreso independiente</h4>
-					<p>Ingreso al cowork con tarjeta personal.</p>
-				</li>
-				<li class=" col-xs-6 col-md-3">
-					<h4>Ambiente Eco-friendly</h4>
-					<p>Reciclá junto con nosotros.</p>
-				</li>
-				<li class=" col-xs-6 col-md-3">
-					<h4>Bike-friendly</h4>
-					<p>Estacionamiento para bicicletas.</p>
-				</li>
-				<li class=" col-xs-6 col-md-3">
-					<h4>Music</h4>
-					<p>Cuenta premium de musica online individual.</p>
-				</li>
-			</ul>
+			<div class="container">
+				<div class="row">
+					<h2 class="text-center subtitulo">Servicios incluídos</h2>
+					<ul class="text-center">
+						<li class="col-xs-6 col-md-3 caja">
+							<i class="fa fa-coffee" aria-hidden="true"></i>
+							<h4>Infusiones</h4>
+							<p>Agua Fria/Caliente, Café, Yerba y Té.</p>
+						</li>
+						<li class="col-xs-6 col-md-3 caja">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+
+							<!-- <img src="images/servicios/lockers.png" alt=""> -->
+							<h4>Lockers</h4>
+							<p>Lockers con candado propio.</p>
+						</li>
+						<li class="col-xs-6 col-md-3 caja">
+							<i class="fa fa-print" aria-hidden="true"></i>
+							<!-- <img src="images/servicios/impresora.png" alt=""> -->
+							<h4>Impresora Laser</h4>
+							<p>100 páginas por mes.</p>
+						</li>
+						<li class="col-xs-6 col-md-3 caja">
+							<i class="fa fa-users" aria-hidden="true"></i>
+							<!-- <img src="images/servicios/reuniones.png" alt=""> -->
+							<h4>Sala de reuniones</h4>
+							<p>Capacidad para 10 personas.<br>TV Led y Pizarra.</p>
+						</li>
+						<li class="col-xs-6 col-md-3 caja">
+							<i class="fa fa-wifi" aria-hidden="true"></i>
+							<!-- <img src="images/servicios/internet.png" alt=""> -->
+							<h4>Internet</h4>
+							<p>Wifi de alta velocidad.</p>
+						</li>
+						<li class="col-xs-6 col-md-3 caja">
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+							<!-- <img src="images/servicios/direccion-comercial.png" alt=""> -->
+							<h4>Dirección comercial</h4>
+							<p>Recepción de mensajería y correo.</p>
+						</li>
+						<li class="col-xs-6 col-md-3 caja">
+							<i class="fa fa-id-card-o" aria-hidden="true"></i>
+						<!-- <img src="images/servicios/ingreso.png" alt=""> -->
+							<h4>Ingreso independiente</h4>
+							<p>Ingreso al cowork con tarjeta personal.</p>
+						</li>
+						<li class="col-xs-6 col-md-3 caja">
+							<i class="fa fa-recycle" aria-hidden="true"></i>
+							<!-- <img src="images/servicios/eco.png" alt=""> -->
+							<h4>Ambiente Eco-friendly</h4>
+							<p>Reciclá junto con nosotros.</p>
+						</li>
+						<li class=" col-xs-6 col-md-3 col-md-offset-3 caja">
+							<i class="fa fa-bicycle" aria-hidden="true"></i>
+							<!-- <img src="images/servicios/bike.png" alt=""> -->
+							<h4>Bike-friendly</h4>
+							<p>Estacionamiento para bicicletas.</p>
+						</li>
+						<li class="col-xs-6 col-md-3 caja">
+							<i class="fa fa-music" aria-hidden="true"></i>
+							<!-- <img src="images/servicios/music.png" alt=""> -->
+							<h4>Music</h4>
+							<p>Cuenta premium de musica online individual.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
 
 	</section>
 
@@ -250,21 +275,21 @@
 					</div>
 
 					<div class="col-md-10 col-xs-12">
-						<h2 class="col-md-6 text-right">Compartí con <strong>Nosotros &#10140</strong></h2>
-						<div class="col-md-6">
-							<div class="col-xs-12 col-md-2">
+						<h2 class="col-md-6 col-xs-12 text-right">Compartí con <strong>Nosotros &#10140</strong></h2>
+						<div class="col-md-6 col-xs-12">
+							<div class="col-xs-3 col-md-2">
 								<!-- <h2>Facebook</h2> -->
 								<a href="www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 							</div>
-							<div class="col-xs-12 col-md-2">
+							<div class="col-xs-3 col-md-2">
 								<!--<h2>Twitter</h2> -->
 								<a href="www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 							</div>
-							<div class="col-xs-12 col-md-2">
+							<div class="col-xs-3 col-md-2">
 								<!--<h2>Instagram</h2>-->
 								<a href="www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 							</div>
-							<div class="col-xs-12 col-md-2">
+							<div class="col-xs-3 col-md-2">
 								<!--<h2>Google+</h2>-->
 								<a href="www.googleplus.com" target="_blank"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a>
 							</div>

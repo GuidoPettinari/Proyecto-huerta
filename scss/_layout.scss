@@ -32,6 +32,7 @@
 
 #logo {
   float:left;
+  padding: 0 25px;
 }
 
 .navbar li {
@@ -39,12 +40,19 @@
   color:$font-color;
 }
 
+.subtitulo {
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 24px;
+     margin-bottom: 40px;
+}
+
 /*************************************/
 /*=========     BANNER     =========*/
 /***********************************/
 
 .imagen-banner {
-  background-image:url("../images/foto-demo-banner.jpg");
+  background-image:url("../images/carrusel/patio.jpg");
   background-repeat:no-repeat;
   background-size:cover;
   max-width:100%;
@@ -72,7 +80,7 @@
 }
 
 /*************************************/
-/*=========    SERVICIOS    =========*/
+/*=========    Planes    =========*/
 /***********************************/
 
 #planes {
@@ -92,8 +100,38 @@
      background-color: red;
 }
 /***************************************/
-/*=========     QUE INCLUYE     =========*/
+/*=========     SERVICIOS     =========*/
 /*************************************/
+#servicios {
+     background-image:url("../images/fondos/sala-estar.jpg");
+     background-repeat:no-repeat;
+     background-size:cover;
+     max-width:100%;
+     color: $comp-color;
+}
+
+#servicios i {
+     font-size: 60px !important;
+     color: $main-color !important;
+}
+
+#servicios .caja {
+     padding: 15px;
+}
+
+#servicios ul {
+     list-style: none;
+}
+
+.caja h4 {
+     text-transform: uppercase;
+     font-size: 16px;
+     margin-bottom: 2px;
+     font-weight: bold;
+}
+.caja p {
+     font-size: 12px;
+}
 
 
 /***************************************/
@@ -175,7 +213,6 @@
 #social {
      background-color: $font-color;
      color: $comp-color;
-     height: 100px;
 }
 #social .logo-footer {
      padding-top: 29px;

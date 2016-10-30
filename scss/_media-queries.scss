@@ -11,6 +11,26 @@
 
 @media (max-width:768px) {
 
+	#servicios .caja {
+		height: 140px;
+	}
+
+	#servicios .caja p {
+		visibility: hidden;
+	}
+
+
+	.logo-footer {
+		margin: auto;
+		display: block;
+	}
+	#social h2 {
+		text-align: center !important;
+	}
+	#social a {
+		text-align: center !important;
+	}
+
 }
 
 @media (max-width:400px) {
