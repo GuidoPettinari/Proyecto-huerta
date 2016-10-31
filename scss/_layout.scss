@@ -40,7 +40,7 @@
   color:$font-color;
 }
 
-.subtitulo {
+#info .subtitulo {
      text-transform: uppercase;
      font-weight: bold;
      font-size: 24px;
@@ -59,6 +59,77 @@
   height:650px;
   position:relative;
 }
+
+.carousel {
+  height:400px;
+}
+
+.carousel h1 {
+  font-family: $main-font;
+  font-size:60px;
+}
+
+.carousel h1 span {
+  color: $main-color;
+}
+
+.carousel p {
+  margin-bottom:30px;
+  font-family:$main-font;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.carousel a {
+  border:3px solid white;
+  padding:10px;
+  font-family: $main-font;
+  font-size: 20px;
+  text-decoration:inherit;
+
+  &:hover{
+    background-color:white;
+    color:$font-color !important;
+
+  }
+
+}
+
+.fa-circle {
+  font-size:8px;
+  padding:15px;
+}
+
+/***************************************/
+/**********QUE ES LA HUERTA************/
+/*************************************/
+
+.imagen-quees{
+  background-image:url("../images/fondos/trama.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:200px;
+}
+
+#info .subtitulo {
+  text-transform:uppercase;
+  family-font:$main-font;
+  font-size:40px;
+  color:darkgrey;
+}
+
+#info .subtitulo span {
+  color:grey;
+}
+
+#info p {
+  font-size:20px;
+  color:grey;
+}
+#info p span {
+  color:black;
+}
+
 
 
 /*************************************/
@@ -79,26 +150,213 @@
   text-align:center;
 }
 
+
+
 /*************************************/
 /*=========    Planes    =========*/
 /***********************************/
 
+
+.fondoplanes {
+  background-color:lightgrey;
+}
 #planes {
   margin-top:80px;
   margin-bottom:80px;
+
 }
 
 #planes ul {
      list-style: none;
 }
+
+#planes h2 {
+  margin-top:70px;
+  margin-bottom:40px;
+}
 .box {
      height: 400px;
+     background-color:white;
+     margin-bottom:30px;
+     border-bottom:10px solid grey;
+
 }
-.box h4 {
+
+.box li{
+  text-align:left;
+  font-size:15px;
+  font-family:$main-font;
+}
+
+.box p {
+  font-family:$main-font;
+  font-size:35px;
+  color:grey;
+  margin:2px;
+}
+
+
+.box1 h4 {
      height: 60px;
      line-height: 60px;
-     background-color: red;
+     background-color: #ff8484;
+     color:white;
+     font-size:30px;
+     margin:0 !important;
+     padding:0 !important;
 }
+
+.box1 p{
+  margin-bottom:-10px !important;
+}
+
+.promo {
+  font-size:15px !important;
+}
+
+
+.box1 ul {
+  margin-top:35px;
+  margin-bottom:20px;
+}
+
+.box1 .fa-check {
+  font-size:12px;
+  background-color:#ff8484;
+  color:white;
+  border-radius:50px;
+  margin-right:10px;
+  padding:2px;
+}
+
+.box1 button {
+  background-color:#ff8484;
+  text-decoration:none;
+  color:white;
+  width:200px;
+  height:50px;
+  margin-bottom:20px;
+  border-radius:10px;
+  font-size:20px;
+}
+
+.box2 h4{
+     height: 60px;
+     line-height: 60px;
+     background-color: #43ea00;
+     color:white;
+     font-size:30px;
+     margin:0;
+     padding:0;
+     margin-bottom:30px;
+}
+
+
+
+.box2 ul {
+  margin-top:51px;
+  margin-bottom:20px;
+}
+
+.box2 .fa-check {
+  font-size:12px;
+  background-color:#43ea00;
+  color:white;
+  border-radius:50px;
+  margin-right:10px;
+  padding:2px;
+}
+
+.box2 button {
+  background-color:#43ea00;
+  text-decoration:none;
+  color:white;
+  width:200px;
+  height:50px;
+  margin-bottom:20px;
+  border-radius:10px;
+  font-size:20px;
+}
+
+
+
+.box3 h4{
+     height: 60px;
+     line-height: 60px;
+     background-color: #9370DB;
+     color:white;
+     font-size:30px;
+     margin:0;
+     padding:0;
+     margin-bottom:30px;
+}
+
+
+
+.box3 ul {
+  margin-top:51px;
+  margin-bottom:20px;
+}
+
+.box3 .fa-check {
+  font-size:12px;
+  background-color:#9370DB;
+  color:white;
+  border-radius:50px;
+  margin-right:10px;
+  padding:2px;
+}
+
+.box3 button {
+  background-color:#9370DB;
+  text-decoration:none;
+  color:white;
+  width:200px;
+  height:50px;
+  margin-top:37px;
+  border-radius:10px;
+  font-size:20px;
+}
+
+.box4 h4{
+     height: 60px;
+     line-height: 60px;
+     background-color: #4BA8F9;
+     color:white;
+     font-size:30px;
+     margin:0;
+     padding:0;
+     margin-bottom:30px;
+}
+
+
+
+.box4 ul {
+  margin-top:51px;
+  margin-bottom:20px;
+}
+
+.box4 .fa-check {
+  font-size:12px;
+  background-color:#4BA8F9;
+  color:white;
+  border-radius:50px;
+  margin-right:10px;
+  padding:2px;
+}
+
+.box4 button {
+  background-color:#4BA8F9;
+  text-decoration:none;
+  color:white;
+  width:200px;
+  height:50px;
+  margin-bottom:20px;
+  border-radius:10px;
+  font-size:20px;
+}
+
+
 /***************************************/
 /*=========     SERVICIOS     =========*/
 /*************************************/
