@@ -28,20 +28,22 @@
   border:none !important;
   max-width:100%;
   opacity: 0.95;
-}
+  height: 50px !important;
+ }
 
 #logo {
   float:left;
   padding: 0 25px;
 }
 #logo img{
-     width: 60px;
-     height: 60px;
+     width: 50px;
+     height: 50px;
 }
 
 .navbar li {
   font-size:20px;
   color:$font-color;
+
 }
 
 #info .subtitulo {
@@ -55,27 +57,27 @@
 /*=========     BANNER     =========*/
 /***********************************/
 
+#banner {
+     overflow: hidden;
+}
+
 .main-text
 {
     position: absolute;
-    top: 50px;
+    top: 120px;
     width: 100%;
-
     color: #FFF;
 }
 
 
 
 .carousel {
-  margin-top:60px;
-  height:400px;
   padding:0 !important;
-  margin-bottom:300px;
+  max-height: 900px !important;
 }
 
 .carousel-inner img {
   width:100%;
-  height:700px !important;
 }
 .carousel h1 {
   font-family: $main-font;
@@ -118,10 +120,11 @@
 /*************************************/
 
 .imagen-quees{
-  background-image:url("../images/fondos/trama.png");
-  background-repeat:no-repeat;
-  background-size:cover;
-  height:200px;
+     background-image:url("../images/fondos/trama.png");
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:200px;
+     margin-bottom: 80px;
 }
 
 #info .subtitulo {
@@ -129,6 +132,9 @@
   family-font:$main-font;
   font-size:40px;
   color:darkgrey;
+  padding-top: 50px;
+
+
 }
 
 #info .subtitulo span {
@@ -138,6 +144,7 @@
 #info p {
   font-size:20px;
   color:grey;
+  line-height: 35px;
 }
 #info p span {
   color:black;
@@ -153,7 +160,6 @@
      background-size:contain;
      max-width:100%;
      height: 300px;
-
 }
 .container-escritorios {
      padding: 0 !important;
@@ -190,13 +196,14 @@
   background-color:#f1f1f1;
 }
 #planes {
-  margin-top:80px;
-  margin-bottom:80px;
-
 }
 
 #planes ul {
      list-style: none;
+}
+
+#planes li {
+     padding: 0 !important;
 }
 
 #planes h2 {
@@ -207,14 +214,18 @@
      height: 400px;
      background-color:white;
      margin-bottom:30px;
-     border-bottom:10px solid grey;
+     border-bottom:10px solid #d9d9d9;
 
+}
+.box ul{
+     padding-right: 15px;
 }
 
 .box li{
   text-align:left;
   font-size:15px;
   font-family:$main-font;
+
 }
 
 .box p {
@@ -315,8 +326,8 @@
      background-color: #ae8eae;
      color:white;
      font-size:30px;
-     margin:0;
-     padding:0;
+     margin:0 !important;
+     padding:0 !important;
      margin-bottom:30px;
 }
 
@@ -390,7 +401,8 @@
 /*=========     SERVICIOS     =========*/
 /*************************************/
 #servicios {
-     background-image:url("../images/fondos/sala-estar.jpg") no-repeat center center fixed;
+     padding-top: 50px;
+     background:url("../images/fondos/sala-estar.jpg") no-repeat center center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      background-size: cover;
@@ -399,6 +411,13 @@
      max-width:100%;
      color: $comp-color;
 }
+#servicios .subtitulo {
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 24px !important;
+     margin-bottom: 40px;
+}
+
 
 #servicios i {
      font-size: 60px !important;
@@ -527,14 +546,14 @@
      line-height: 100px;
 }
 #social .fa-facebook {
-	color: $facebook-color !important;
+	color: $comp-color !important;
 }
 #social .fa-twitter {
-	color: $twitter-color !important;
+	color: $comp-color !important;
 }
 #social .fa-instagram {
-	color: $instagram-color !important;
+	color: $comp-color !important;
 }
 #social .fa-google-plus-official {
-	color: $google-color !important;
+	color: $comp-color !important;
 }
