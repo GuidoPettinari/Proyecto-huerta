@@ -79,7 +79,8 @@ a {
   max-height: 900px !important; }
 
 .carousel-inner img {
-  width: 100%; }
+  max-width: 100%;
+  height: auto; }
 
 .carousel h1 {
   font-family: "Montserrat";
@@ -471,6 +472,15 @@ a {
 /*=========     MEDIA-QUERIES    =========*/
 /******************************************/
 @media (max-width: 768px) {
+  .main-text img {
+    width: 60px !important; }
+
+  .main-text h1, .main-text p, .main-text a {
+    font-size: 12px !important; }
+
+  .container-escritorios {
+    visibility: hidden; }
+
   #servicios .caja {
     height: 140px; }
 
@@ -485,6 +495,9 @@ a {
     text-align: center !important; }
 
   #social a {
-    text-align: center !important; } }
+    text-align: center !important; }
+
+  #social .arrow {
+    visibility: hidden; } }
 
 /*# sourceMappingURL=styles.css.map */

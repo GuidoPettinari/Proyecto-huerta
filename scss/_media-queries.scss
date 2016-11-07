@@ -11,6 +11,17 @@
 
 @media (max-width:768px) {
 
+
+	.main-text img {
+		width: 60px !important;
+	}
+	.main-text h1, .main-text p, .main-text a{
+		font-size: 12px !important;
+	}
+
+	.container-escritorios {
+		visibility: hidden;
+	}
 	#servicios .caja {
 		height: 140px;
 	}
@@ -29,6 +40,11 @@
 	}
 	#social a {
 		text-align: center !important;
+	}
+
+
+	#social .arrow {
+		visibility: hidden;
 	}
 
 }

@@ -61,8 +61,7 @@
      overflow: hidden;
 }
 
-.main-text
-{
+.main-text {
     position: absolute;
     top: 120px;
     width: 100%;
@@ -77,7 +76,8 @@
 }
 
 .carousel-inner img {
-  width:100%;
+  max-width:100%;
+  height: auto;
 }
 .carousel h1 {
   font-family: $main-font;
