@@ -7,21 +7,45 @@
 
 @media (max-width:1000px) {
 
+#info p {
+	font-size: 15px;
+}
+
+#info p br {
+	display:none;
+}
+
 }
 
 @media (max-width:768px) {
 
 
+.nav {
+	background-color:white !important;
+	padding:0 !important;
+	margin-top:0 !important;
+}
+
 	.main-text img {
-		width: 60px !important;
+		width: 85px !important;
 	}
 	.main-text h1, .main-text p, .main-text a{
-		font-size: 12px !important;
+		font-size: 20px !important;
 	}
 
-	.container-escritorios {
-		visibility: hidden;
+	#info p {
+		font-size: 15px;
+		text-align:center;
+		margin-top:0;
 	}
+
+	.fraseBorrar {
+		display:none;
+	}
+	.container-escritorios {
+		display:none;
+	}
+
 	#servicios .caja {
 		height: 140px;
 	}
@@ -49,5 +73,32 @@
 
 }
 
-@media (max-width:400px) {
+@media (max-width:530px) {
+
+	.main-text img {
+		display:none;
+	}
+
+	.main-text h1, .main-text p, .main-text a{
+		font-size: 15px !important;
+		margin-top:0;
+	}
+
+	#info div {
+		margin-bottom:75px !important;
+	}
+
+	#info div h2 {
+		font-size:30px !important;
+	}
+
+	#planes {
+		margin-top:150px !important;
+	}
+
+
+	#planes div {
+		margin-top:50px !important;
+	}
+
 }
