@@ -7,24 +7,57 @@
 
 @media (max-width:1000px) {
 
-#info p {
-	font-size: 15px;
-}
+	#info p {
+		font-size: 15px;
+	}
 
-#info p br {
-	display:none;
-}
+	#info p br {
+		display:none;
+	}
+
+	.logo-footer {
+		margin: auto;
+		display: block;
+	}
+
+	#social h2 {
+		text-align: center !important;
+	}
+
+	#social a {
+		text-align: center !important;
+	}
+
+	#social .arrow {
+		visibility: hidden;
+	}
 
 }
-
 @media (max-width:768px) {
 
+	/*IMAGES BANNERS FOR MOBILE */
+	.banner-cowork {
+		content: url("../images/carrusel/oficina-cowork-mob.jpg");
+	}
+	.banner-tv {
+		content: url("../images/carrusel/sala-tv-mob.jpg");
+	}
+	.banner-privada {
+		content: url("../images/carrusel/oficina-privada-mob.jpg");
+	}
+	.banner-escritorios {
+		content: url("../images/carrusel/escritorios-mob.jpg");
+	}
+	.banner-sala {
+		content: url("../images/carrusel/sala-reunion-mob.jpg");
+	}
 
-.nav {
-	background-color:white !important;
-	padding:0 !important;
-	margin-top:0 !important;
-}
+
+	.nav {
+		background-color:white !important;
+		padding:0 !important;
+		margin-top:0 !important;
+	}
 
 	.main-text img {
 		width: 85px !important;
@@ -55,21 +88,6 @@
 	}
 
 
-	.logo-footer {
-		margin: auto;
-		display: block;
-	}
-	#social h2 {
-		text-align: center !important;
-	}
-	#social a {
-		text-align: center !important;
-	}
-
-
-	#social .arrow {
-		visibility: hidden;
-	}
 
 }
 

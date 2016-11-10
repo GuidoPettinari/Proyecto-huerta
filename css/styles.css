@@ -116,8 +116,7 @@ a {
   background-image: url("../images/fondos/trama.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
-  margin-bottom: 80px; }
+  margin-bottom: 20px; }
 
 #info .subtitulo {
   text-transform: uppercase;
@@ -140,13 +139,6 @@ a {
 /***************************************/
 /**********QUE ES LA HUERTA************/
 /*************************************/
-#escritorios {
-  background-image: url("../images/fondos/escritorios.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  height: 300px; }
-
 .container-escritorios {
   padding: 0 !important;
   overflow: hidden; }
@@ -476,8 +468,37 @@ a {
     font-size: 15px; }
 
   #info p br {
-    display: none; } }
+    display: none; }
+
+  .logo-footer {
+    margin: auto;
+    display: block; }
+
+  #social h2 {
+    text-align: center !important; }
+
+  #social a {
+    text-align: center !important; }
+
+  #social .arrow {
+    visibility: hidden; } }
 @media (max-width: 768px) {
+  /*IMAGES BANNERS FOR MOBILE */
+  .banner-cowork {
+    content: url("../images/carrusel/oficina-cowork-mob.jpg"); }
+
+  .banner-tv {
+    content: url("../images/carrusel/sala-tv-mob.jpg"); }
+
+  .banner-privada {
+    content: url("../images/carrusel/oficina-privada-mob.jpg"); }
+
+  .banner-escritorios {
+    content: url("../images/carrusel/escritorios-mob.jpg"); }
+
+  .banner-sala {
+    content: url("../images/carrusel/sala-reunion-mob.jpg"); }
+
   .nav {
     background-color: white !important;
     padding: 0 !important;
@@ -504,19 +525,6 @@ a {
     height: 140px; }
 
   #servicios .caja p {
-    visibility: hidden; }
-
-  .logo-footer {
-    margin: auto;
-    display: block; }
-
-  #social h2 {
-    text-align: center !important; }
-
-  #social a {
-    text-align: center !important; }
-
-  #social .arrow {
     visibility: hidden; } }
 @media (max-width: 530px) {
   .main-text img {

@@ -1,6 +1,6 @@
 <?php $name = $_POST['name']; $email = $_POST['email']; $phone =
 $_POST['telephone']; $message = $_POST['comments']; $from = 'From:
-huerta.com.ar'; $to = 'contacto@zenda.com.ar'; $subject = 'Nuevo Mensaje de la Web';
+huerta.com.ar'; $to = 'hola@la-huerta.co'; $subject = 'Nuevo Mensaje de la Web';
 $body = "From: $name\n E-Mail: $email\n Teléfono: $phone\n Message:\n $message";
 
      $headers = 'From: '.$email."\r\n".
@@ -21,7 +21,7 @@ mysql_connect("$server","$user_name","$password");
 
 mysql_select_db("$database");
 
-$order = mysql_query("INSERT INTO Contactos (name, email, phone) VALUES ('$name', '$email','$phone')");
+$order = mysql_query("INSERT INTO contactos (name, email, phone, comments) VALUES ('$name', '$email','$phone','$message')");
 
 mysql_query($order);
 ?>
