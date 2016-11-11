@@ -42,15 +42,22 @@ a {
   border: none !important;
   max-width: 100%;
   opacity: 0.95;
-  height: 50px !important; }
+  height: 50px !important;
+  margin-bottom: 0 !important; }
+
+.navbar-header {
+  margin-bottom: 0 !important; }
+
+.navbar-toggle {
+  margin-bottom: 0 !important; }
 
 #logo {
   float: left;
-  padding: 0 25px; }
+  padding: 10px 25px 0; }
 
 #logo img {
-  width: 50px;
-  height: 50px; }
+  width: 35px !important;
+  height: 35px !important; }
 
 .navbar li {
   font-size: 20px;
@@ -166,7 +173,8 @@ a {
   background-color: #f1f1f1; }
 
 #planes ul {
-  list-style: none; }
+  list-style: none;
+  padding: 0 !important; }
 
 #planes li {
   padding: 0 !important; }
@@ -230,7 +238,8 @@ a {
   height: 50px;
   margin-bottom: 20px;
   border-radius: 10px;
-  font-size: 20px; }
+  font-size: 20px;
+  border: #ce543b 2px solid; }
 
 .box2 h4 {
   height: 60px;
@@ -262,7 +271,8 @@ a {
   height: 50px;
   margin-bottom: 20px;
   border-radius: 10px;
-  font-size: 20px; }
+  font-size: 20px;
+  border: #798e20 2px solid; }
 
 .box3 h4 {
   height: 60px;
@@ -294,7 +304,8 @@ a {
   height: 50px;
   margin-top: 37px;
   border-radius: 10px;
-  font-size: 20px; }
+  font-size: 20px;
+  border: #635163 2px solid; }
 
 .box4 h4 {
   height: 60px;
@@ -326,7 +337,8 @@ a {
   height: 50px;
   margin-bottom: 20px;
   border-radius: 10px;
-  font-size: 20px; }
+  font-size: 20px;
+  border: #386263 2px solid; }
 
 /***************************************/
 /*=========     SERVICIOS     =========*/
@@ -356,16 +368,20 @@ a {
   padding: 15px; }
 
 #servicios ul {
-  list-style: none; }
+  list-style: none;
+  padding: 0 !important; }
 
 .caja h4 {
   text-transform: uppercase;
   font-size: 16px;
-  margin-bottom: 2px;
+  margin-bottom: 2px !important;
   font-weight: bold; }
 
 .caja p {
   font-size: 12px; }
+
+.box3 p {
+  margin-top: 15px; }
 
 /***************************************/
 /*=========     CONTACTO     =========*/
@@ -481,7 +497,7 @@ a {
     text-align: center !important; }
 
   #social .arrow {
-    visibility: hidden; } }
+    display: none !important; } }
 @media (max-width: 768px) {
   /*IMAGES BANNERS FOR MOBILE */
   .banner-cowork {
@@ -525,7 +541,10 @@ a {
     height: 140px; }
 
   #servicios .caja p {
-    visibility: hidden; } }
+    display: none; }
+
+  .footer h2 {
+    font-size: 12px !important; } }
 @media (max-width: 530px) {
   .main-text img {
     display: none; }
@@ -545,5 +564,29 @@ a {
 
   #planes div {
     margin-top: 50px !important; } }
+@media (max-width: 425px) {
+  .main-text {
+    margin-top: -40px !important; }
+
+  .main-text h1 {
+    font-size: 15px !important; }
+
+  .main-text p {
+    font-size: 15px !important;
+    margin-bottom: 15px; }
+
+  .main-text a {
+    font-size: 14px !important;
+    border: 1px solid;
+    margin-top: -10px; }
+
+  .subtitulo {
+    font-size: 20px !important; }
+
+  .box p {
+    font-size: 18px !important; }
+
+  .box li {
+    font-size: 14px !important; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -29,7 +29,7 @@
 	}
 
 	#social .arrow {
-		visibility: hidden;
+		display: none !important;
 	}
 
 }
@@ -84,8 +84,14 @@
 	}
 
 	#servicios .caja p {
-		visibility: hidden;
+		display: none;
 	}
+
+	.footer h2{
+		font-size:12px !important;
+
+	}
+
 
 
 
@@ -118,5 +124,41 @@
 	#planes div {
 		margin-top:50px !important;
 	}
+
+}
+
+@media (max-width:425px) {
+
+.main-text  {
+	margin-top:-40px !important;
+}
+
+.main-text h1{
+	font-size:15px !important;
+}
+
+.main-text p{
+	font-size:15px !important;
+	margin-bottom:15px;
+}
+.main-text a {
+	font-size: 14px !important;
+	border:1px solid;
+	margin-top:-10px;
+}
+
+
+
+.subtitulo {
+ font-size:20px !important;
+}
+
+.box p{
+	font-size:18px !important;
+}
+
+.box li {
+	font-size:14px !important;
+}
 
 }
