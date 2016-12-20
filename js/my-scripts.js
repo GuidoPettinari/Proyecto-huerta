@@ -52,6 +52,7 @@ $(function () {
 	 success: function () {
 	   alert('El formulario fue enviado');
 	 }
+
     });
 
   });
