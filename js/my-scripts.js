@@ -44,14 +44,17 @@ $(function () {
   $('form').on('submit', function (e) {
 
     e.preventDefault();
-
+    if ($('input[name="email"]').val() == "") {
+      alert('Hay campos sin completar');
+      return
+    };
     $.ajax({
-	 type: 'post',
-	 url: 'send-mail.php',
-	 data: $('form').serialize(),
-	 success: function () {
-	   alert('El formulario fue enviado');
-	 }
+       type: 'post',
+       url: 'send-mail.php',
+       data: $('form').serialize(),
+       success: function () {
+         alert('El formulario fue enviado');
+       }
 
     });
 
