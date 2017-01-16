@@ -12,16 +12,21 @@ $body = "From: $name\n E-Mail: $email\n Teléfono: $phone\n Message:\n $message"
      mail($to, $subject, $body, $headers);
 
 
-$user_name = "huerta_decaro";
-$password = "huerta1986";
-$database = "huerta_bbdd";
+// $user_name = "huerta_decaro";
+// $password = "huerta1986";
+// $database = "huerta_bbdd";
+// $server = "10.0.10.19";
+
+$user_name = "zenda_zenda-user";
+$password = "zenda1986";
+$database = "zenda_dataDB";
 $server = "10.0.10.19";
 
 mysql_connect("$server","$user_name","$password");
 
 mysql_select_db("$database");
 
-$order = mysql_query("INSERT INTO contactos (name, email, phone, comments) VALUES ('$name', '$email','$phone','$message')");
+$order = mysql_query("INSERT INTO Contactos (name, email, phone, comments, web) VALUES ('$name', '$email','$phone','$message','Huerta')");
 
 mysql_query($order);
 ?>
