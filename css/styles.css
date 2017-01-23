@@ -360,6 +360,47 @@ a {
   margin-left: auto !important;
   margin-right: auto !important; }
 
+.box5 h4 {
+  height: 60px;
+  line-height: 60px;
+  background-color: #ffb600;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px; }
+
+.box5 ul {
+  margin-top: 12px;
+  margin-bottom: 20px; }
+
+.box5 .fa-check {
+  font-size: 12px;
+  background-color: #ffb600;
+  color: white;
+  border-radius: 50px;
+  margin-right: 10px;
+  padding: 2px; }
+
+.box5 button {
+  background-color: #ffb600;
+  text-decoration: none;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: #b07e00 2px solid;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin-left: auto !important;
+  margin-right: auto !important; }
+
+.margin-moved {
+  margin-left: -8.33% !important; }
+
 /***************************************/
 /*=========     SERVICIOS     =========*/
 /*************************************/
@@ -517,7 +558,10 @@ a {
     text-align: center !important; }
 
   #social .arrow {
-    display: none !important; } }
+    display: none !important; }
+
+  .margin-moved {
+    margin-left: 0 !important; } }
 @media (max-width: 768px) {
   /*IMAGES BANNERS FOR MOBILE */
   .banner-cowork {
