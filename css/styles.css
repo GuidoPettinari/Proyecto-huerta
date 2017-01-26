@@ -61,7 +61,11 @@ a {
 
 .navbar li {
   font-size: 20px;
-  color: #555555; }
+  color: #555555;
+  transition: all 0.3s ease 0s; }
+
+.navbar li:hover {
+  font-size: 22px; }
 
 #info .subtitulo {
   text-transform: uppercase;
@@ -107,7 +111,8 @@ a {
   padding: 10px;
   font-family: "Montserrat";
   font-size: 20px;
-  text-decoration: inherit; }
+  text-decoration: inherit;
+  transition: all 0.3s ease 0s; }
   .carousel a:hover {
     background-color: white;
     color: #555555 !important; }
@@ -244,7 +249,8 @@ a {
   left: 0;
   right: 0;
   margin-left: auto !important;
-  margin-right: auto !important; }
+  margin-right: auto !important;
+  transition: all 0.3s ease 0s; }
 
 .box2 h4 {
   height: 60px;
@@ -282,7 +288,8 @@ a {
   left: 0;
   right: 0;
   margin-left: auto !important;
-  margin-right: auto !important; }
+  margin-right: auto !important;
+  transition: all 0.3s ease 0s; }
 
 .box3 h4 {
   height: 60px;
@@ -320,7 +327,8 @@ a {
   left: 0;
   right: 0;
   margin-left: auto !important;
-  margin-right: auto !important; }
+  margin-right: auto !important;
+  transition: all 0.3s ease 0s; }
 
 .box4 h4 {
   height: 60px;
@@ -358,7 +366,8 @@ a {
   left: 0;
   right: 0;
   margin-left: auto !important;
-  margin-right: auto !important; }
+  margin-right: auto !important;
+  transition: all 0.3s ease 0s; }
 
 .box5 h4 {
   height: 60px;
@@ -396,10 +405,31 @@ a {
   left: 0;
   right: 0;
   margin-left: auto !important;
-  margin-right: auto !important; }
+  margin-right: auto !important;
+  transition: all 0.3s ease 0s; }
 
 .margin-moved {
   margin-left: -8.33% !important; }
+
+.box1 button:hover {
+  background-color: #ce543b;
+  font-size: 22px; }
+
+.box2 button:hover {
+  background-color: #798e20;
+  font-size: 22px; }
+
+.box3 button:hover {
+  background-color: #635163;
+  font-size: 22px; }
+
+.box4 button:hover {
+  background-color: #386263;
+  font-size: 22px; }
+
+.box5 button:hover {
+  background-color: #b07e00;
+  font-size: 22px; }
 
 /***************************************/
 /*=========     SERVICIOS     =========*/
@@ -423,7 +453,11 @@ a {
 
 #servicios i {
   font-size: 60px !important;
-  color: #ffb600 !important; }
+  color: #ffb600 !important;
+  transition: all 0.3s ease 0s; }
+
+#servicios i:hover {
+  transform: scale(1.2); }
 
 #servicios .caja {
   padding: 15px; }
@@ -463,6 +497,13 @@ a {
 #contacto article textarea {
   height: 80px; }
 
+#send-form {
+  transition: all 0.3s ease 0s; }
+
+#send-form:hover {
+  font-size: 16px;
+  background-color: #b6b1b1; }
+
 #contacto input {
   height: 40px !important;
   line-height: 40px;
@@ -483,6 +524,12 @@ a {
   left: 0;
   width: 100%;
   height: 100%; }
+
+.contact-data p {
+  transition: all 0.3s ease 0s; }
+
+.contact-data p:hover {
+  font-size: 22px; }
 
 /****************************************/
 /*=========     MAPA    =========*/
@@ -520,10 +567,13 @@ a {
 #social a {
   font-size: 30px !important;
   display: block;
-  transition: all 500ms 100ms ease-in-out;
+  transition: all 200ms 50ms ease-in-out;
   border-radius: 50%;
   margin: auto;
   line-height: 100px; }
+
+#social a:hover {
+  transform: scale(1.2); }
 
 #social .fa-facebook {
   color: #ffffff !important; }
