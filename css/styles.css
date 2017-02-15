@@ -190,10 +190,11 @@ a {
   margin-bottom: 20px; }
 
 .box {
-  height: 400px;
+  height: 420px;
   background-color: white;
   margin-bottom: 30px;
-  border-bottom: 10px solid #d9d9d9; }
+  border-bottom: 10px solid #d9d9d9;
+  transition: all 0.3s ease 0s; }
 
 #planes-menu ul {
   padding: 30px !important; }
@@ -201,11 +202,12 @@ a {
 .box li {
   text-align: left;
   font-size: 15px;
-  font-family: "Montserrat"; }
+  font-family: "Montserrat";
+  transition: all 0.3s ease 0s; }
 
 .box p {
   font-family: "Montserrat";
-  font-size: 35px;
+  font-size: 30px;
   color: grey;
   margin: 2px; }
 
@@ -408,8 +410,53 @@ a {
   margin-right: auto !important;
   transition: all 0.3s ease 0s; }
 
+.box6 h4 {
+  height: 60px;
+  line-height: 60px;
+  background-color: #ab6f44;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px; }
+
+.box6 ul {
+  margin-top: 12px;
+  margin-bottom: 20px; }
+
+.box6 .fa-check {
+  font-size: 12px;
+  background-color: #ab6f44;
+  color: white;
+  border-radius: 50px;
+  margin-right: 10px;
+  padding: 2px; }
+
+.box6 button {
+  background-color: #ab6f44;
+  text-decoration: none;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: #7a4f30 2px solid;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  transition: all 0.3s ease 0s; }
+
 .margin-moved {
   margin-left: -8.33% !important; }
+
+.box:hover {
+  transform: scale(1.015); }
+
+.box li:hover {
+  transform: scale(1.05); }
 
 .box1 button:hover {
   background-color: #ce543b;
@@ -429,6 +476,10 @@ a {
 
 .box5 button:hover {
   background-color: #b07e00;
+  font-size: 22px; }
+
+.box6 button:hover {
+  background-color: #7a4f30;
   font-size: 22px; }
 
 /***************************************/
